@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+void main()
+{
+	int i=1, sum=0 , num;
+	printf("Enter the odd number: ");
+	scanf("%d",&num);
+	
+	while (i<=num)
+	{
+		sum+=i;
+		i+=2;
+	}
+	
+	printf("The summation is %d",sum);
+}
