@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+void main()
+{
+	int Num_Of_Students, i=0, degree,sum=0;
+	float Average;
+	
+	printf("Enter Then number of students: ");
+	scanf("%d",&Num_Of_Students);
+	
+	for (i=0;i<Num_Of_Students;i++)
+	{
+		printf("Enter the degree of student %d : ",i);
+		scanf("%d",&degree);
+		sum+=degree;
+	}
+	
+	Average=(float)sum/Num_Of_Students;
+	printf("The Average is : %f",Average);
+	
+}
