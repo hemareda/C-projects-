@@ -6,11 +6,17 @@ void main()
 	
 	printf("Enter The number : ");
 	scanf("%d",&num);
-	
+	if (num<=0)
+	 {
+		 printf("ERROR");
+
+	 }
+	 else{
 	while(i<num)
 	{
 	 factorial*=num;
 	 num--;
 	}
 	printf("The factorial is %d",factorial);
+}
 }
